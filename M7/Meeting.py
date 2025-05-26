@@ -44,6 +44,7 @@ for (lower, upper) in boundaries:
     output = cv2.bitwise_and(img, img, mask = mask)
     cv2.imshow("Color Detection", output)
     cv2.waitKey(0)
+
 cv2.imshow("Image", img)
 cv2.imshow("image", img)
 

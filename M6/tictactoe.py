@@ -35,12 +35,11 @@ while move >0:
     play_turn()   
 
     if check_win():
-#         b
+
 
         print (f"Player {turn} has won!")
         break
 
-#         c
 
     turn = turn*-1
     move = move -1
