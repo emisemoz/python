@@ -17,7 +17,7 @@ class Character:
         self.attack = type_dict["attack"]
         self.dodge = type_dict["dodge"]
     
-     def __str__(self):
+    def __str__(self):
         return self.char_type
 
     def attack_enemy(self):
